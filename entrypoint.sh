@@ -13,4 +13,3 @@ git config --global credential.helper '!aws codecommit credential-helper $@'
 git config --global credential.UseHttpPath true
 git remote add sync ${CodeCommitUrl}
 git push sync --mirror
-.
